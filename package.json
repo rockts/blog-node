@@ -2,9 +2,11 @@
   "name": "blog-node",
   "version": "1.0.0",
   "description": "nodejs 开发 blog 的学习代码",
-  "main": "app.js",
+  "main": "bin/www.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_NEV=production nodemon ./bin/www.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/rockts/blog-node/issues"
   },
-  "homepage": "https://github.com/rockts/blog-node#readme"
+  "homepage": "https://github.com/rockts/blog-node#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.9"
+  }
 }
