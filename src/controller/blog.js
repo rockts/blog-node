@@ -39,6 +39,18 @@ const getList = (author, keyword) => {
   ]
 }
 
+const getDetail = (id) => {
+  // 先返回假数据
+  return {
+    id: 1,
+    title: '行宫',
+    content: '寥落古行宫，宫花寂寞红。白头宫女在，闲坐说玄宗。',
+    createTime: 1546610491112,
+    author: '元稹'
+  }
+}
+
 module.exports = {
-  getList
+  getList,
+  getDetail
 }
