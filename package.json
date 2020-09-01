@@ -1,0 +1,19 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "nodejs 开发 blog 的学习代码",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rockts/blog-node.git"
+  },
+  "author": "gaopeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockts/blog-node/issues"
+  },
+  "homepage": "https://github.com/rockts/blog-node#readme"
+}
