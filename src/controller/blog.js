@@ -25,7 +25,7 @@ const getList = (author, keyword) => {
     {
       id: 4,
       title: '相思',
-      content: '红豆生南国，春来发几枝。愿君多采撷，此物最相思。。',
+      content: '红豆生南国，春来发几枝。愿君多采撷，此物最相思。',
       createTime: 1598964604902,
       author: '王维'
     },
