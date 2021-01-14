@@ -76,7 +76,7 @@ const serverHandle = (req, res) => {
 
     // 未命中路由，返回 404
     res.writeHead(404, { "Content-type": "text/plain" })
-    res.write('404 Not Found\n')
+    res.write("404 Not Found\n")
     res.end()
   })
 }
